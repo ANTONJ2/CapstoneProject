@@ -25,7 +25,8 @@ public class validLogin_TC_002 {
 		
 		//sending valid credentials
 		driver.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[1]/div/label/input")).sendKeys("vw828276"+Keys.TAB);
-		driver.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[2]/div/label/input")).sendKeys("Jo@8848954307"+Keys.ENTER);
+		driver.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[2]/div/label/input")).sendKeys("Jo@884895430
+																						"+Keys.ENTER);
 	}
 
 }
